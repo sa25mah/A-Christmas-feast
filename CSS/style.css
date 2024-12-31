@@ -1,0 +1,60 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start section img */
+.img {
+  height: 1338px;
+  background-image: url(../img/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* end section img */
+
+/* start section text */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+hr {
+  width: 234px;
+  height: 4px;
+  margin: auto;
+  background-color: red;
+  border: none;
+  margin-bottom: 40px;
+}
+/* end section text */
+
+/* Add padding and margins for readability */
+.container {
+  padding: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  font-family: monospace;
+  line-height: 1.8;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 32px;
+}
